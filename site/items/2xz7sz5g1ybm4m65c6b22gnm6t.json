@@ -8,6 +8,12 @@
       "at": "2026-10-26T18:34:08Z",
       "note": null,
       "version": 1
+    },
+    {
+      "at": "2026-10-26T18:53:57Z",
+      "generated": true,
+      "note": "Site presentation update: responsive feature typography and clearer AI dream-engine introduction. Article prose unchanged.",
+      "version": 2
     }
   ],
   "content_hash": "sha256:8e62f742b606d8e2d9bf2da4b4aeab85df8738fea00e49e0b75314c4134d0954",
@@ -25,6 +31,6 @@
   "origin": "https://ericlortie.github.io/liminal-blyg/",
   "page": "f/2xz7sz5g1ybm4m65c6b22gnm6t/",
   "transclusions": [],
-  "updated": "2026-10-26T18:34:08Z",
-  "version": 1
+  "updated": "2026-10-26T18:53:57Z",
+  "version": 2
 }
