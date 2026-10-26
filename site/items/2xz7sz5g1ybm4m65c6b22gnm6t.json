@@ -20,6 +20,12 @@
       "generated": true,
       "note": "Corrected homepage, site description and the article’s AI-development attribution to the owner’s framing: with limited human oversight.",
       "version": 3
+    },
+    {
+      "at": "2026-10-26T18:57:23Z",
+      "generated": true,
+      "note": "Site tagline changed to Game Engines Are Dream Engines at the owner’s request. Article title and prose unchanged.",
+      "version": 4
     }
   ],
   "content_hash": "sha256:9330471e8daf580f3cb8d766f7577e5d4369f8e46b8f8a5fe13cbd15532a4049",
@@ -37,6 +43,6 @@
   "origin": "https://ericlortie.github.io/liminal-blyg/",
   "page": "f/2xz7sz5g1ybm4m65c6b22gnm6t/",
   "transclusions": [],
-  "updated": "2026-10-26T18:56:17Z",
-  "version": 3
+  "updated": "2026-10-26T18:57:23Z",
+  "version": 4
 }
