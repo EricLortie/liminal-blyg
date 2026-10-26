@@ -1,9 +1,19 @@
 {
   "items": {
+    "033qxq3j3b1qdr2hen31d0eh3v": {
+      "section": "start",
+      "summary": "The identity, the platform, and the different ways of entering a world still taking shape.",
+      "title": "l1m1n4l and The Liminal"
+    },
     "2xz7sz5g1ybm4m65c6b22gnm6t": {
       "section": "start",
       "summary": "Introducing a substantial, mod-first simulation built with AI: its catalogue, origins and open questions.",
       "title": "The system is becoming itself"
+    },
+    "5tgny8d8de5av9cdctzfsynhcw": {
+      "section": "start",
+      "summary": "Explore with Mainframe, create with Sandbox, watch with Broadcast. One engine, many focused experiences.",
+      "title": "One substrate, many doors"
     }
   },
   "schemaVersion": "liminal.publication.catalog.v1"
