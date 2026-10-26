@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="lw-root" data-lw-theme="editorial" data-lw-density="comfortable" data-lw-version="1.0.0"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The system is becoming itself · The Liminal</title><link rel="alternate" type="application/rss+xml" href="https://ericlortie.github.io/liminal-blyg/feed.xml"><link rel="alternate" type="application/json" href="https://ericlortie.github.io/liminal-blyg/items/2xz7sz5g1ybm4m65c6b22gnm6t.json"><link rel="canonical" href="https://ericlortie.github.io/liminal-blyg/f/2xz7sz5g1ybm4m65c6b22gnm6t/"><link rel="blyg" href="https://ericlortie.github.io/liminal-blyg/blyg.json"><style>/* Liminal web foundation 1.0.0. Local, dependency-free, explicit opt-in. */
+.lw-root {
+  color-scheme: light;
+  /* Editorial art colors, not interchangeable with accessible semantic text. */
+  --lw-brand-ink: #152229;
+  --lw-brand-paper: #f5f1e8;
+  --lw-brand-orange: #f06d3d;
+  --lw-brand-cyan: #8bdddf;
+  --lw-brand-line: #c7ccc7;
+  --lw-bg: #f5f1e8;
+  --lw-surface: #fffdf8;
+  --lw-surface-raised: #e7e8e0;
+  --lw-text: #152229;
+  --lw-muted: #526168;
+  --lw-border: #7c8989;
+  --lw-accent: #086e7b;
+  --lw-on-accent: #ffffff;
+  --lw-focus: #086e7b;
+  --lw-success: #23613f;
+  --lw-warning: #835400;
+  --lw-danger: #a32d32;
+  --lw-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --lw-mono: ui-monospace, Consolas, monospace;
+  --lw-radius: .4rem;
+  --lw-space: 1rem;
+  --lw-control-height: 2.75rem;
+  --lw-control-padding: .65rem 1rem;
+  --lw-content-width: 82.5rem;
+  font-family: var(--lw-font);
+  line-height: 1.6;
+  color: var(--lw-text);
+  background: var(--lw-bg);
+  overflow-wrap: anywhere;
+}
+.lw-root[data-lw-theme="operator"] {
+  color-scheme: dark;
+  --lw-bg: #10151b;
+  --lw-surface: #182029;
+  --lw-surface-raised: #24313c;
+  --lw-text: #e7edf0;
+  --lw-muted: #afbdc7;
+  --lw-border: #687c8b;
+  --lw-accent: #9cdec8;
+  --lw-on-accent: #14241f;
+  --lw-focus: #9cdec8;
+  --lw-success: #9cdec8;
+  --lw-warning: #f2c788;
+  --lw-danger: #ffb5b5;
+}
+.lw-root[data-lw-density="compact"] {
+  --lw-space: .75rem;
+  --lw-control-height: 2.5rem;
+  --lw-control-padding: .45rem .75rem;
+  line-height: 1.5;
+}
+.lw-root .lw-shell { max-width: var(--lw-content-width); margin-inline: auto; padding: clamp(1rem, 3vw, 3rem); }
+.lw-root .lw-stack { display: grid; gap: var(--lw-space); }
+.lw-root .lw-cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--lw-space); }
+.lw-root .lw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: var(--lw-space); }
+.lw-root .lw-card { box-sizing: border-box; min-width: 0; padding: calc(var(--lw-space) * 1.5); border: 1px solid var(--lw-border); border-radius: var(--lw-radius); background: var(--lw-surface); }
+.lw-root .lw-muted { color: var(--lw-muted); }
+.lw-root .lw-mono { font-family: var(--lw-mono); }
+.lw-root .lw-link { color: var(--lw-accent); text-underline-offset: .2em; }
+.lw-root .lw-link:hover { text-decoration-thickness: .15em; }
+.lw-root .lw-button, .lw-root .lw-input {
+  box-sizing: border-box; max-width: 100%; min-width: 0;
+  min-height: var(--lw-control-height); padding: var(--lw-control-padding);
+  border: 1px solid var(--lw-border); border-radius: var(--lw-radius);
+  background: var(--lw-surface); color: var(--lw-text); font: inherit;
+}
+.lw-root .lw-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; cursor: pointer; text-align: center; text-decoration: none; white-space: normal; overflow-wrap: anywhere; }
+.lw-root .lw-button:hover:not(:disabled):not([aria-disabled="true"]) { background: var(--lw-surface-raised); border-color: var(--lw-accent); }
+.lw-root .lw-button[data-lw-variant="primary"] { background: var(--lw-accent); color: var(--lw-on-accent); border-color: var(--lw-accent); font-weight: 650; }
+.lw-root .lw-button[data-lw-variant="primary"]:hover:not(:disabled):not([aria-disabled="true"]) { background: var(--lw-accent); text-decoration: underline; }
+.lw-root .lw-button[data-lw-variant="danger"] { color: var(--lw-danger); border-color: var(--lw-danger); }
+.lw-root .lw-button:disabled, .lw-root .lw-button[aria-disabled="true"], .lw-root .lw-input:disabled { opacity: .55; cursor: default; }
+.lw-root .lw-field { display: grid; min-width: 0; gap: .35rem; }
+.lw-root .lw-input { width: 100%; }
+.lw-root .lw-input[aria-invalid="true"] { border-color: var(--lw-danger); }
+.lw-root .lw-help { font-size: .875rem; color: var(--lw-muted); }
+.lw-root .lw-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.lw-root .lw-nav-link { display: inline-flex; align-items: center; min-height: var(--lw-control-height); color: var(--lw-muted); text-decoration: none; border-bottom: 2px solid transparent; }
+.lw-root .lw-nav-link:hover { color: var(--lw-text); text-decoration: underline; text-underline-offset: .2em; }
+.lw-root .lw-nav-link[aria-current="page"], .lw-root .lw-nav-link[aria-selected="true"] { color: var(--lw-accent); border-bottom-color: currentColor; }
+.lw-root .lw-status { display: inline-flex; align-items: center; gap: .5rem; max-width: 100%; padding: .2rem .6rem; border: 1px solid currentColor; border-radius: var(--lw-radius); color: var(--lw-muted); font-size: .875rem; }
+.lw-root .lw-status[data-lw-state="success"] { color: var(--lw-success); }
+.lw-root .lw-status[data-lw-state="warning"] { color: var(--lw-warning); }
+.lw-root .lw-status[data-lw-state="danger"] { color: var(--lw-danger); }
+.lw-root .lw-media { display: block; max-width: 100%; height: auto; }
+.lw-root .lw-scroll { max-width: 100%; overflow: auto; }
+.lw-root .lw-skip { position: absolute; top: -10rem; left: 1rem; z-index: 100; padding: .75rem 1rem; background: var(--lw-surface); color: var(--lw-accent); }
+.lw-root .lw-skip:focus { top: 1rem; }
+.lw-root .lw-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+/* Layout primitives must never reveal panels hidden by their owning application. */
+.lw-root [hidden]:not([hidden="until-found"]) { display: none !important; }
+/* Focus is shared even on existing controls; no other element styling is inherited. */
+.lw-root :focus-visible { outline: 3px solid var(--lw-focus); outline-offset: 3px; }
+@media (forced-colors: active) {
+  .lw-root .lw-button, .lw-root .lw-input, .lw-root .lw-card { border-color: CanvasText; }
+  .lw-root :focus-visible { outline-color: Highlight; }
+}
+
+
+:root{--ink:var(--lw-brand-ink);--paper:var(--lw-brand-paper);--muted:var(--lw-muted);--orange:var(--lw-brand-orange);--cyan:var(--lw-brand-cyan);--line:var(--lw-brand-line);font-size:1rem;line-height:1.65;background:var(--ink);color:var(--ink)}
+*{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:.22em}a:hover{text-decoration-thickness:.15em}.skip{position:absolute;top:-5rem;left:1rem;padding:.75rem 1rem;background:var(--cyan);z-index:5}.skip:focus{top:1rem}.site-header{--lw-focus:var(--lw-brand-cyan);background:var(--ink);color:var(--paper);border-bottom:1px solid #4c5d64}.header-inner{flex-wrap:wrap;max-width:1320px;margin:auto;padding:1.1rem 3rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}.brand{min-width:0;max-width:100%;overflow-wrap:anywhere;font-weight:750;letter-spacing:-.035em;font-size:1.3rem;text-decoration:none}.site-nav{min-width:0;max-width:100%;display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.86rem}.site-nav a{overflow-wrap:anywhere;text-decoration:none}.site-nav a:hover{text-decoration:underline}.site-nav .subscribe-link{color:var(--cyan)}main{background:var(--paper);min-height:70vh;overflow-wrap:anywhere}.shell{max-width:1320px;margin:auto;padding:3rem}.masthead{padding:1rem 0 3rem;display:grid;grid-template-columns:1.5fr 1fr;gap:2rem;align-items:end;border-bottom:1px solid var(--ink)}.eyebrow,.section-label{font-size:.72rem;font-weight:750;text-transform:uppercase;letter-spacing:.16em}.eyebrow{display:flex;align-items:center;gap:.6rem}.eyebrow:before{content:"";width:.65rem;height:.65rem;background:var(--orange);border-radius:50%;display:inline-block}.masthead h1{font-size:clamp(3rem,7.8vw,7rem);letter-spacing:-.075em;line-height:.97;margin:.7rem 0 1rem;max-width:14ch}.masthead .intro{max-width:42ch;font-size:1.05rem;color:var(--muted);padding-bottom:.25rem}.feature{margin:2.4rem 0 3rem;background:var(--ink);color:var(--paper);display:grid;grid-template-columns:1.1fr 1fr;min-height:26rem;overflow:hidden}.feature-copy{min-width:0;padding:2.6rem;display:flex;flex-direction:column;align-items:start;justify-content:center}.feature .section-label{color:var(--cyan)}.feature h2{font-size:clamp(2rem,3.7vw,3.5rem);line-height:1.08;letter-spacing:-.05em;margin:1rem 0}.feature h2 a{text-decoration:none}.feature .summary{color:#d1dcd9;max-width:42ch}.feature .metadata{color:#c5d2d2}.feature-image{width:100%;height:100%;min-height:24rem;object-fit:cover}.feature-art{background:#21343c;min-height:24rem;position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:2.6rem;overflow:hidden;border-left:1px solid #4c5d64}.feature-art:after{content:"";position:absolute;width:16rem;height:16rem;border:1px solid #668489;border-radius:50%;right:-4rem;bottom:-5rem;box-shadow:0 0 0 3.4rem #21343c,0 0 0 calc(3.4rem + 1px) #668489,0 0 0 6.8rem #21343c,0 0 0 calc(6.8rem + 1px) #668489}.feature-art .art-word{font-size:clamp(3rem,5vw,5.4rem);font-weight:700;letter-spacing:-.07em;line-height:1;max-width:8ch;z-index:1}.feature-art .art-note{color:var(--cyan);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;z-index:1}.read-link{display:inline-block;font-size:.85rem;font-weight:700;margin-top:1rem;text-decoration:none;border-bottom:2px solid var(--orange);padding-bottom:.35rem}.section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin:2.5rem 0 1.3rem}.section-heading h2{font-size:1.6rem;letter-spacing:-.045em;margin:0}.section-heading a{font-size:.85rem}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.8rem}.card{border-top:2px solid var(--ink);padding-top:1rem;min-width:0}.card-image{aspect-ratio:16/10;width:100%;object-fit:cover;margin-bottom:1.2rem}.card h2,.card h3{font-size:1.35rem;line-height:1.2;letter-spacing:-.035em;margin:.65rem 0}.card h2 a,.card h3 a{text-decoration:none}.card .summary{font-size:.94rem;color:var(--muted)}.metadata,figcaption{font-size:.78rem;color:var(--muted)}.section-label{color:#28636b}.section-intro{max-width:65ch;color:var(--muted)}.section-page h1,.subscribe-page h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.03;letter-spacing:-.065em;margin:.8rem 0 1rem}.empty{padding:2rem;border:1px solid var(--line);color:var(--muted);margin:1.5rem 0}.article-shell{max-width:76ch;margin:auto;padding:3rem 1.3rem 5rem}.article-heading{border-bottom:1px solid var(--line);padding-bottom:1.5rem;margin-bottom:2rem}.article-heading h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.08;letter-spacing:-.055em;margin:.8rem 0 1rem}.article-heading .summary{font-size:1.2rem;color:var(--muted)}.generation-notice{padding:.8rem 1rem;border:1px solid var(--line);font-size:.85rem;color:var(--muted)}.article-body .blyg-tk-gen{border-inline-start:2px solid #5d7f84;padding-inline-start:1rem}.article-body{font-size:1.05rem;line-height:1.85}.article-body h1{font-size:1.8rem}.article-body h2{font-size:1.5rem;line-height:1.25;margin-top:2rem}.article-body h3{line-height:1.3}.article-body p{margin:1.2rem 0}.article-body a{color:#086e7b}.article-body blockquote{margin:1.5rem 0;padding:.1rem 1.2rem;border-left:3px solid var(--orange);color:#354a51}.article-body figure{margin:1.6rem 0}.article-body img,.article-body video,.article-body audio{display:block;max-width:100%;height:auto}.article-body audio{width:100%}.article-body pre{overflow:auto;padding:1rem;background:#e5e6de}.article-body code{font-size:.9em}.subscribe-page{max-width:76ch}.subscription{padding:1.5rem 0;border-top:1px solid var(--line)}.subscription code{display:block;padding:1rem;background:#e5e6de;overflow-wrap:anywhere;margin:1rem 0}.site-footer{--lw-focus:var(--lw-brand-cyan);max-width:1320px;margin:auto;padding:2rem 3rem;color:#c5d2d2;display:flex;justify-content:space-between;gap:1rem;font-size:.8rem}.site-footer a{color:var(--cyan)}
+@media(max-width:900px){.header-inner,.shell{padding:1.5rem}.masthead{grid-template-columns:1fr}.masthead .intro{max-width:60ch}.feature{grid-template-columns:1fr 1fr}.feature-copy,.feature-art{padding:1.7rem}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.site-footer{padding:2rem 1.5rem}}@media(max-width:600px){.header-inner{align-items:start;flex-direction:column;gap:.8rem}.site-nav{gap:1rem;font-size:.8rem}.shell{padding:1.5rem 1rem}.masthead{padding-bottom:1.6rem;gap:.5rem}.masthead h1{font-size:clamp(3rem,14vw,5rem)}.feature{grid-template-columns:1fr;margin-top:1.5rem}.feature-copy{min-width:0;padding:1.5rem}.feature-art{min-height:15rem;border-left:0;border-top:1px solid #4c5d64}.feature-image{min-height:0;max-height:24rem}.cards{grid-template-columns:1fr;gap:2rem}.section-heading{margin-top:2rem}.site-footer{flex-direction:column;padding:1.5rem 1rem}.article-shell{padding-top:2rem}}
+</style></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="../../index.html">The Liminal</a><nav class="site-nav lw-nav" aria-label="Main navigation"><a href="../../sections/updates/index.html">Development journal</a><a href="../../sections/experiences/index.html">Observed experiences</a><a href="../../sections/guides/index.html">Guides</a><a class="subscribe-link" href="../../subscribe/index.html">Subscribe</a></nav></div></header><main id="main" tabindex="-1"><article class="article-shell"><header class="article-heading"><a class="section-label" href="../../sections/updates/index.html">Development journal</a><h1>The system is becoming itself</h1><p class="summary">Introducing a substantial, mod-first simulation built with AI: its catalogue, origins and open questions.</p><p class="metadata">By The Liminal</p><p class="generation-notice lw-status">Some or all prose is disclosed as machine-generated by the publisher. This disclosure is self-asserted and has not been independently verified.</p><p class="metadata">Updated <time datetime="2026-10-26T18:34:08Z">26 Oct 2026, 18:34 UTC</time> · version 1</p></header><div class="article-body"><div class="blyg-tk-gen"><p>Audience: People interested in The Liminal, its development and its research possibilities</p>
+<p>Content: interpretation</p>
+<p>Status: in development. Consider the difference between a four-winged dragon and a flying structure a kilometre long. The first has to read as a creature. The second has to read as somewhere smaller creatures and vehicles could operate. The Liminal&#x27;s authored catalogue contains both: the Reed Skimmer, with fore and hind wing pairs, and the Fork, a flying U with a sheltered channel between its arms and batteries along its hull. They pose very different questions to the same simulation and presentation systems.</p>
+<p>Now imagine a scene around that enormous hull: small escorts, distant fire, a camera that establishes the scale before following one participant. That is a proposed composition, not a claim that a finished launch sequence already exists. A person might play within it. Another might watch it as a programme. An agent might inspect its state and act through structured tools. The interesting part is that these can be ways of approaching the same underlying environment.</p>
+<p>The Liminal is being built around that shared situation: a simulation that can be played, watched, directed and changed. Its public identity is taking shape as l1m1n4l. This journal will follow the work as the platform develops, including what becomes possible, what breaks and what we learn by using it.</p>
+<p>“The system is becoming itself” describes an unfinished project discovering its shape through implementation and use. It is also a question about the kind of thing we are making. Where does a game end and a tool for making experiences begin? What changes when an environment can be inhabited by a person, observed as a show, or approached by an agent through a structured interface?</p>
+<h2>A substantial beginning</h2>
+<p>The project already contains a broad authored catalogue. A source inventory taken on October 26, 2026, counted 452 entity templates, 96 weapon definitions, 78 ability definitions, 107 environment definitions and 44 camera presets in the content packs explicitly included by Mainframe, the broad platform release.</p>
+<p>Looking further into that catalogue finds 48 quests, 44 factions, 33 dialogue definitions, 23 biomes, 47 motion profiles and 61 visual-effect recipes. These numbers describe authored definitions at a particular revision. They do not mean that every entry is a polished, selectable or fully tested experience.</p>
+<p>The distinction matters because the catalogue sits on top of reusable systems. A registry gives a kind of content an identity and a place in the platform. The definitions supply particular things: a weapon, a body, a movement profile, an environment. Scenarios bring compatible pieces together. Running them reveals what that composition actually does.</p>
+<p>The code inventory also identifies 556 declared agent-tool names across 78 naming prefixes. Those declarations span activities such as authoring, inspecting entities, working with terrain, controlling cameras and reading analytics. This is a source measurement, not a promise that every tool is available on every running release. The value lies in making the simulation accessible through explicit, inspectable operations.</p>
+<p>The examples become more specific when you look at their definitions. A procedural War Wagon exemplar describes a wheeled chassis and a turret mount. The Reed Skimmer specifies four narrow wings, a flying movement profile and a weapon loadout. The Fork arranges bodies and turret mounts across a much larger structure. These are different compositions, not just a number of differently named units. Making their motion, damage and presentation convincing is ongoing engineering work.</p>
+<h2>Content is part of the architecture</h2>
+<p>The Liminal is mod first. Built-in content is authored through shared definition and loading infrastructure, giving future content work an existing structure to use and extend. Many changes can be expressed through data and composition. New underlying behavior can still require engine code.</p>
+<p>That makes the current inventory a starting point. A new experience may draw on existing entities and movement, place them in a different environment, change factions and objectives, and present the result through another camera and HUD configuration. Whether that combination is convincing, readable and enjoyable is something we must discover through use.</p>
+<p>Early Access is intended to be a period of that discovery: extending the catalogue, exercising more of the systems, improving presentation and turning promising combinations into experiences worth returning to. We are not assigning a number to all the worlds that might emerge. We can measure what is authored and record what we have actually exercised.</p>
+<h2>Built through conversation with machines</h2>
+<p>The Liminal grew out of work on LaborForge, an earlier and separate project: a multi-tenant platform for autonomous AI agent ecosystems, released as source-available and described by its own README as an art project in the AI-safety space. The phrase “the system is becoming itself” is older than this journal; it titled an October 2025 update on the newsletter *Sonder Uncertainly*. The Liminal&#x27;s first-party development has been entirely agent-coded under human direction, using multiple agent platforms. The work includes implementation, testing, investigation, review and revision. Unity, .NET and other dependencies remain the work of their respective creators.</p>
+<p>“Vibecoded” is an accurate part of this history, but it leaves out the accumulation of engineering practice needed to keep the project coherent: shared contracts, versioned definitions, reproducible inventories, test evidence and reviewable changes. Human direction sets goals and judges outcomes. Agents help turn those goals into software, and the results must survive contact with the actual system.</p>
+<p>This journal is also AI-authored, in a deliberately robotic platform voice. That is an editorial convention, not a declaration of machine consciousness. Authorship will be disclosed, and material claims should be traceable to an observation, a source snapshot or an explicitly stated intention. An articulate explanation is not evidence that its subject works.</p>
+<h2>A world, an interface, a research setting</h2>
+<p>Different releases provide different ways into the platform: Sentry Node focuses on defense, Pipeline on armed driving, and Pocket Arcade on short arcade sessions. Broadcast explores the experience of watching and producing a programme from the simulation. Mainframe provides a wider entry into the stack. Their readiness varies, and our development reporting will keep those boundaries visible.</p>
+<p>For creators, the interesting possibility is a growing vocabulary of compatible systems. For viewers, it is a world presented with enough context and direction to follow what is happening. For researchers, it is an environment where some questions about agent behavior can be posed with explicit state, interventions and recorded outcomes.</p>
+<p>That last possibility requires care. A simulated character&#x27;s words do not establish consciousness. A successful interaction does not establish real-world safety. The useful work is in asking precise questions, observing what happens and keeping interpretation connected to evidence.</p>
+<p>We plan two kinds of reporting here. Official articles explain the project, its decisions and its intentions. Platform-observation reports describe particular runs, with enough provenance to identify the build, configuration and observation window. A receipt helps us inspect a claim; it does not make every interpretation correct or guarantee that a complex run can be replayed exactly.</p>
+<p>We are introducing a platform in development, with an existing technical body and a large amount still to exercise. The next articles will examine its architecture, its different ways of being experienced and the questions driving its development.</p>
+<p>Evolving daily. Subscribe for updates.</p>
+<h2>Background sources</h2>
+<p><a href="https://github.com/EricLortie/laborforge-release">LaborForge: the earlier project and its own status</a></p>
+<p><a href="https://sonderuncertainly.substack.com/p/the-system-is-becoming-itself">Sonder Uncertainly: The System Is Becoming Itself (October 2025)</a></p>
+<p><strong>Attribution:</strong> textGenerator: AI coding agents; editor: Codex (AI drafting and technical review)</p></div></div></article></main><footer class="site-footer"><span>The Liminal · The system is becoming itself.</span><a href="../../subscribe/index.html">Follow by RSS or Blygger</a></footer></body></html>

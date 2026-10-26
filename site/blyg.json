@@ -1,0 +1,9 @@
+{
+  "blyg": "0.4",
+  "feed": "feed.xml",
+  "generator": "liminal-publication/0.1.0",
+  "items": "items/index.json",
+  "site": "https://ericlortie.github.io/liminal-blyg/",
+  "title": "The Liminal",
+  "updated": "2026-10-26T18:34:08Z"
+}
