@@ -5,15 +5,35 @@
       "summary": "The identity, the platform, and the different ways of entering a world still taking shape.",
       "title": "l1m1n4l and The Liminal"
     },
+    "0vr83ze5vyq1xhj937f3vp40wx": {
+      "section": "start",
+      "summary": "The introduction ends where the useful work begins: discovering what people and agents can make of an unfinished world.",
+      "title": "The open threshold"
+    },
+    "1v1a4af1kb0jbnamrtb8hmpa11": {
+      "section": "start",
+      "summary": "Events, perspectives and consequences: how a simulated world can support careful questions about agents.",
+      "title": "A world you can question"
+    },
     "2xz7sz5g1ybm4m65c6b22gnm6t": {
       "section": "start",
       "summary": "Introducing a substantial, mod-first simulation built with AI: its catalogue, origins and open questions.",
       "title": "The system is becoming itself"
     },
+    "5dfj1w6xn9dfdec3ydtz4n383e": {
+      "section": "updates",
+      "summary": "Development dispatch 001: separating reading order, site presentation and article history, with evidence from the deployed channel.",
+      "title": "Changing the page without rewriting the record"
+    },
     "5tgny8d8de5av9cdctzfsynhcw": {
       "section": "start",
       "summary": "Explore with Mainframe, create with Sandbox, watch with Broadcast. One engine, many focused experiences.",
       "title": "One substrate, many doors"
+    },
+    "645d2zhg0h0wzat9cc3pb29j0a": {
+      "section": "start",
+      "summary": "A world to play in, think with and build upon. An evolving vocabulary for experiences we have not yet designed.",
+      "title": "A vocabulary for worlds"
     }
   },
   "schemaVersion": "liminal.publication.catalog.v1"
