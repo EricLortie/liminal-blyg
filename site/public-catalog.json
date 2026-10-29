@@ -22,23 +22,23 @@
     },
     "3w2qwz5jrzegyzsdkd5sg0qc1p": {
       "section": "updates",
-      "summary": "Driving Backbone Rally against the clock, watching a nose-low landing wear a single corner wheel to 94/100 without a shot fired, and eliminating a 75 cm coaster-rail step caused by per-segment heightfield stamping.",
-      "title": "336 Metres to Checkpoint Two (and Why One Wheel Is at 94%)"
+      "summary": "Backbone Rally's part-built rovers, and a 75 cm rail step that appeared on one runtime and not the other: found by a terrain parity check, fixed by stamping the whole rail at once. Corrects an earlier version.",
+      "title": "A Rally Rover, and the Rail Step That Depended on the Runtime"
     },
     "423wvp88tr6r14cj8jreg0c03w": {
       "section": "experiences",
-      "summary": "Climbing through the 200-metre volumetric cloud deck over Highland Roost, why coupling lift directly to each wingbeat made the camera bob in a turn, and how separating the aerodynamic glide envelope from the four-wing stroke fixed it.",
-      "title": "Banking a Four-Winged Creature Above the Cloud Deck"
+      "summary": "Flying a four-winged creature over Highland Roost, why its wings follow the flight rather than drive it, and the sign error that made every wingbeat run backwards. Corrects an earlier version.",
+      "title": "Four Wings Over the Roost, and the Backwards Wingbeat"
     },
     "4b6rph5dmbgt71er4xh210ev2s": {
       "section": "updates",
-      "summary": "Why The Liminal puts its worlds and tools inside physical rooms: the sunken mountain diorama well in the Mainframe floor, the 8-style Holo-Forge camera rig in your pocket, and the two-shot Broadcast Studio with a live microphone-reactive Creator portrait.",
+      "summary": "Why Mainframe and Broadcast put their worlds and tools inside physical rooms: the live diorama well in the Mainframe floor, the Holo-Forge camera presets, and the two-shot Broadcast studio. Corrects an earlier version.",
       "title": "The World in the Floor: Building Inside the Diorama Well and the Broadcast Room"
     },
     "4ecgt2f3g49a70qw8pbn3sj05e": {
       "section": "experiences",
-      "summary": "Watching an unattended town in Userland where nobody has a weapon: why an ore hauler stopped 6.55 metres short of an outcrop after obstacle avoidance nudged its waypoint, and why Seed 4103 sparked 33 conversations while five sibling seeds walked past each other.",
-      "title": "The Courier Who Stopped Six Metres Short (Field Notes From an Unattended Town)"
+      "summary": "Why Userland residents gave up on a crafting station before reaching it (a 10 m wandering radius stood in for a 1.5 m arrival radius), the fix, and what the evidence does and does not show. Corrects an earlier version.",
+      "title": "Ten Metres Was Close Enough: Why Userland Residents Stopped Short of the Station"
     },
     "5dfj1w6xn9dfdec3ydtz4n383e": {
       "section": "updates",
@@ -50,6 +50,11 @@
       "summary": "Explore with Mainframe, create with Sandbox, watch with Broadcast. One engine, many focused experiences.",
       "title": "One substrate, many doors"
     },
+    "5xa63w0qf4j7vgc39c1dsht4y1": {
+      "section": "updates",
+      "summary": "An audit of five illustrated posts found claims we could not trace, a real bug told as the wrong story, and receipts that recorded less than they appeared to. All five are corrected; this is what went wrong and what changes.",
+      "title": "Five Corrections, and What Our Receipts Were Really Recording"
+    },
     "645d2zhg0h0wzat9cc3pb29j0a": {
       "section": "start",
       "summary": "A world to play in, think with and build upon. An evolving vocabulary for experiences we have not yet designed.",
@@ -57,7 +62,7 @@
     },
     "74sqdb86jz9j97v3qmdqwmgg3d": {
       "section": "experiences",
-      "summary": "Walking through the live 3D Antechamber portal into Buffer Underrun, growing from a 32-byte Sub-Byte process to a Byte across 100 metres without weapons, and switching on the 320x240 bit_raster pocket lens.",
+      "summary": "Walking through the live Antechamber portal into Buffer Underrun, and growing from Sub-Byte through Byte and Word by reclaiming smaller blocks and processes. Corrects an earlier version.",
       "title": "Stepping Through the Portal Into a 240p Memory Toy"
     }
   },
