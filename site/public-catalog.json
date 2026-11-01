@@ -15,6 +15,11 @@
       "summary": "Events, perspectives and consequences: how a simulated world can support careful questions about agents.",
       "title": "A world you can question"
     },
+    "2esc7hk0kytjak9n5szcaxnrkk": {
+      "section": "updates",
+      "summary": "A gate run flagged 34 failures, five of them gameplay regressions. Four were faults in the tests and one was a real bug in the VR hands. Meanwhile, an always-on simulation server went live.",
+      "title": "Thirty-Four Red Lights, and the Server That Stays On"
+    },
     "2xz7sz5g1ybm4m65c6b22gnm6t": {
       "section": "start",
       "summary": "Introducing a substantial, mod-first simulation built with AI: its catalogue, origins and open questions.",
